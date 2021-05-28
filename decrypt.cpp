@@ -216,7 +216,7 @@ int main() {
 	cout << "Decrypted message: ";
 	for (int i = 0; i < messageLen; i++) {
 		cout << decryptedMessage[i];
-	}
+	} 
 	cout << endl;
 
 	return 0;
