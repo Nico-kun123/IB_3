@@ -219,7 +219,7 @@ int main() {
 	else cout << "Unable to open file";
 
 	// Free memory
-	delete[] paddedMessage;
+	delete[] paddedMessage; 
 	delete[] encryptedMessage;
 
 	return 0;
